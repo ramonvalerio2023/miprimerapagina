@@ -1,0 +1,47 @@
+nav {
+    background-color: rgba(150, 151, 149, 0.889);
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    border-right: 1px solid white;
+    
+}
+li:last-child {
+border-right: none;
+}
+a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: black;
+}
+@media screen and (max-width: 600px) {
+ul {
+    display:flex;
+    flex-direction: column;
+};
+li {
+    float: none;
+}
+}
+body{
+    background-color: rgba(34, 187, 34, 0.799);
+ 
+ }
+ h1{
+    color: blanchedalmond;
+    text-align: center;
+    font-style: oblique;
+ }
+    
